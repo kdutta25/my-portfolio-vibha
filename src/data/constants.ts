@@ -5,7 +5,8 @@ export const PROFILE = {
   email: 'sharmavibha56@gmail.com',
 } as const
 
-export const PORTRAIT_SRC = '/images/vibha.png'
+/** Resolves under Vite `base` (e.g. GitHub Pages /my-portfolio-vibha/) */
+export const PORTRAIT_SRC = `${import.meta.env.BASE_URL}images/vibha.png`
 
 export const CERT_LINKS = {
   powerBi:
