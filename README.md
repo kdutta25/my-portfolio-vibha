@@ -102,7 +102,3 @@ flowchart TB
 ```
 
 **How to read it:** `ThemeProvider` sits **outside** `I18nProvider` so both contexts are available everywhere under `App`. Theme writes `data-theme` on `<html>`; global CSS defines variables per `[data-theme=…]`; styled layout reads those variables. Locale picks a message tree `t`, updates `lang`, and drives copy (including `document` meta from `App`).
-
-## License
-
-Private / unlicensed unless you add a license file.
